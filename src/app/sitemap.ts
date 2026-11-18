@@ -1,0 +1,22 @@
+import { MetadataRoute } from "next";
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  const baseUrl = "https://courier-frontend-steel.vercel.app";
+
+  const routes = [
+    "",
+    "/about",
+    "/services",
+    "/pricing",
+    "/contact",
+    "/login",
+    "/register",
+  ];
+
+  return routes.map((route) => ({
+    url: `${baseUrl}${route}`,
+    lastModified: new Date(),
+    changeFrequency: "daily",
+    priority: route === "" ? 1.0 : 0.8,
+  }));
+}
