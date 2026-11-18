@@ -6,11 +6,12 @@ interface AuthState {
   token: string | null;
   isLoading: boolean;
   login: (user: User, token: string) => void;
+  updateUser: (updatedUser: Partial<User>) => void;
   logout: () => void;
   initialize: () => void;
 }
 
-export const useAuthStore = create<AuthState>((set) => ({
+export const useAuthStore = create<AuthState>((set, get) => ({
   user: null,
   token: null,
   isLoading: true,
@@ -24,6 +25,17 @@ export const useAuthStore = create<AuthState>((set) => ({
       document.cookie = `userRole=${user.role}; path=/; max-age=604800; SameSite=Lax`;
     }
     set({ user, token, isLoading: false });
+  },
+
+  updateUser: (updatedUser: Partial<User>) => {
+    const currentUser = get().user;
+    if (currentUser) {
+      const newUser = { ...currentUser, ...updatedUser };
+      if (typeof window !== "undefined") {
+        localStorage.setItem("user", JSON.stringify(newUser));
+      }
+      set({ user: newUser });
+    }
   },
 
   logout: () => {
