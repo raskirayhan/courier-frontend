@@ -65,7 +65,7 @@ export default function ContactPage() {
             <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight">
               Get in Touch with Our Logistics Experts
             </h1>
-            <p className="text-slate-400 max-w-2xl mx-auto text-base">
+            <p className="text-slate-300 max-w-2xl mx-auto text-base font-normal">
               Have questions about nationwide rates, corporate accounts, or active deliveries? We&apos;re here to help.
             </p>
           </div>

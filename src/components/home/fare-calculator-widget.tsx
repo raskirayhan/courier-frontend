@@ -53,7 +53,7 @@ export function FareCalculatorWidget() {
               <CardTitle className="text-lg font-bold text-white">
                 Live Volumetric Fare Estimator
               </CardTitle>
-              <CardDescription className="text-slate-400 text-xs">
+              <CardDescription className="text-slate-300 text-xs font-medium">
                 Accurate instant rates matching our official logistics engine
               </CardDescription>
             </div>

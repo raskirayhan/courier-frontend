@@ -197,23 +197,23 @@ export default function CourierDeliveriesPage() {
                       )}
                     </div>
 
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-slate-600 pt-1">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-slate-700 pt-1">
                       <div>
-                        <span className="text-slate-400">Recipient Name:</span>{" "}
-                        <strong className="text-slate-800">{s.receiverName || s.recipientName}</strong>
+                        <span className="text-slate-500 font-medium">Recipient Name:</span>{" "}
+                        <strong className="text-slate-950 font-semibold">{s.receiverName || s.recipientName}</strong>
                       </div>
                       <div>
-                        <span className="text-slate-400">Phone:</span>{" "}
+                        <span className="text-slate-500 font-medium">Phone:</span>{" "}
                         <a
                           href={`tel:${s.receiverPhone || s.recipientPhone}`}
-                          className="font-mono text-emerald-700 hover:underline inline-flex items-center gap-1 font-semibold"
+                          className="font-mono text-emerald-700 hover:underline inline-flex items-center gap-1 font-bold"
                         >
                           <Phone className="h-3 w-3" /> {s.receiverPhone || s.recipientPhone}
                         </a>
                       </div>
                       <div className="sm:col-span-2">
-                        <span className="text-slate-400">Destination:</span>{" "}
-                        <span className="font-medium text-slate-800">
+                        <span className="text-slate-500 font-medium">Destination:</span>{" "}
+                        <span className="font-semibold text-slate-900">
                           {s.receiverAddress || s.recipientAddress}
                         </span>
                       </div>
@@ -304,14 +304,14 @@ export default function CourierDeliveriesPage() {
               </p>
             </div>
 
-            <div className="p-3 rounded-xl bg-slate-50 border border-slate-200 text-xs text-left space-y-1">
+            <div className="p-3.5 rounded-xl bg-slate-100/80 border border-slate-200 text-xs text-left space-y-1.5">
               <div className="flex justify-between">
-                <span className="text-slate-400">Consignment:</span>
-                <span className="font-mono font-bold text-slate-800">{otpModalShipment.trackingNumber}</span>
+                <span className="text-slate-600 font-medium">Consignment:</span>
+                <span className="font-mono font-bold text-slate-900">{otpModalShipment.trackingNumber}</span>
               </div>
               <div className="flex justify-between">
-                <span className="text-slate-400">Phone:</span>
-                <span className="font-mono text-slate-800">{otpModalShipment.receiverPhone}</span>
+                <span className="text-slate-600 font-medium">Phone:</span>
+                <span className="font-mono font-bold text-slate-900">{otpModalShipment.receiverPhone}</span>
               </div>
             </div>
 

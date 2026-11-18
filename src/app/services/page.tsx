@@ -76,7 +76,7 @@ export default function ServicesPage() {
             <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight">
               Enterprise Logistics Tailored to Your Scale
             </h1>
-            <p className="text-slate-400 max-w-2xl mx-auto text-base">
+            <p className="text-slate-300 max-w-2xl mx-auto text-base font-normal">
               From single document couriers to scheduled container linehauls, explore our specialized freight solutions.
             </p>
           </div>

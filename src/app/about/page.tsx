@@ -19,7 +19,7 @@ export default function AboutPage() {
             <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight">
               Pioneering Bangladesh&apos;s Modern Logistics Network
             </h1>
-            <p className="text-slate-400 max-w-2xl mx-auto text-base">
+            <p className="text-slate-300 max-w-2xl mx-auto text-base font-normal">
               Connecting commerce and communities through intelligent routing, real-time tracking, and verified deliveries.
             </p>
           </div>

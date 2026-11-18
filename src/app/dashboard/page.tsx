@@ -215,12 +215,12 @@ export default function CustomerDashboardOverview() {
                         {s.trackingNumber}
                       </td>
                       <td className="py-3.5 px-4">
-                        <p className="font-semibold text-slate-800">{s.receiverName || s.recipientName || "Valued Customer"}</p>
-                        <p className="text-[11px] text-slate-400">{s.receiverPhone || s.recipientPhone}</p>
+                        <p className="font-semibold text-slate-900">{s.receiverName || s.recipientName || "Valued Customer"}</p>
+                        <p className="text-[11px] text-slate-500 font-mono">{s.receiverPhone || s.recipientPhone}</p>
                       </td>
                       <td className="py-3.5 px-4">
-                        <span className="flex items-center gap-1 font-medium text-slate-700">
-                          <MapPin className="h-3 w-3 text-slate-400" />
+                        <span className="flex items-center gap-1 font-medium text-slate-800">
+                          <MapPin className="h-3.5 w-3.5 text-slate-500" />
                           {s.deliveryZone || s.destinationZone || "Chittagong"}
                         </span>
                       </td>

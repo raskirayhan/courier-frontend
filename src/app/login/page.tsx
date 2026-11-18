@@ -186,13 +186,13 @@ function LoginForm() {
               </Badge>
             </div>
             <div>
-              <p className="font-semibold text-xs text-slate-900">Operations Head</p>
-              <p className="text-[11px] text-slate-500 font-mono truncate">admin@courier.com</p>
+              <p className="font-bold text-xs text-slate-950">Operations Head</p>
+              <p className="text-[11px] text-purple-900 font-mono font-semibold truncate">admin@courier.com</p>
             </div>
             <Button
               size="sm"
               variant="outline"
-              className="w-full text-xs border-purple-300 text-purple-700 hover:bg-purple-600 hover:text-white"
+              className="w-full text-xs font-bold border-purple-300 text-purple-800 bg-white hover:bg-purple-600 hover:text-white"
               disabled={!!loadingRole || isSubmitting}
               onClick={() => handleDemoLogin("admin@courier.com", "Admin@123456", "admin")}
             >
@@ -212,18 +212,18 @@ function LoginForm() {
               <div className="p-1.5 rounded-md bg-blue-100 text-blue-700">
                 <UserCheck className="h-4 w-4" />
               </div>
-              <Badge variant="outline" className="border-blue-300 text-blue-700 text-[10px]">
+              <Badge variant="outline" className="border-blue-300 text-blue-700 text-[10px] font-bold">
                 Customer
               </Badge>
             </div>
             <div>
-              <p className="font-semibold text-xs text-slate-900">Merchant / Sender</p>
-              <p className="text-[11px] text-slate-500 font-mono truncate">customer@demo.com</p>
+              <p className="font-bold text-xs text-slate-950">Merchant / Sender</p>
+              <p className="text-[11px] text-blue-900 font-mono font-semibold truncate">customer@demo.com</p>
             </div>
             <Button
               size="sm"
               variant="outline"
-              className="w-full text-xs border-blue-300 text-blue-700 hover:bg-blue-600 hover:text-white"
+              className="w-full text-xs font-bold border-blue-300 text-blue-800 bg-white hover:bg-blue-600 hover:text-white"
               disabled={!!loadingRole || isSubmitting}
               onClick={() => handleDemoLogin("customer@demo.com", "Password@123!", "customer")}
             >
@@ -243,18 +243,18 @@ function LoginForm() {
               <div className="p-1.5 rounded-md bg-emerald-100 text-emerald-700">
                 <Truck className="h-4 w-4" />
               </div>
-              <Badge variant="outline" className="border-emerald-300 text-emerald-700 text-[10px]">
+              <Badge variant="outline" className="border-emerald-300 text-emerald-700 text-[10px] font-bold">
                 Courier
               </Badge>
             </div>
             <div>
-              <p className="font-semibold text-xs text-slate-900">Delivery Rider</p>
-              <p className="text-[11px] text-slate-500 font-mono truncate">courier@demo.com</p>
+              <p className="font-bold text-xs text-slate-950">Delivery Rider</p>
+              <p className="text-[11px] text-emerald-900 font-mono font-semibold truncate">courier@demo.com</p>
             </div>
             <Button
               size="sm"
               variant="outline"
-              className="w-full text-xs border-emerald-300 text-emerald-700 hover:bg-emerald-600 hover:text-white"
+              className="w-full text-xs font-bold border-emerald-300 text-emerald-800 bg-white hover:bg-emerald-600 hover:text-white"
               disabled={!!loadingRole || isSubmitting}
               onClick={() => handleDemoLogin("courier@demo.com", "Password@123!", "courier")}
             >

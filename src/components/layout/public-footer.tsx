@@ -16,10 +16,10 @@ export function PublicFooter() {
                 Swift<span className="text-blue-500">Track</span>
               </span>
             </div>
-            <p className="text-sm text-slate-400 leading-relaxed">
+            <p className="text-sm text-slate-300 leading-relaxed">
               Bangladesh&apos;s leading tech-first logistics and nationwide courier delivery network. Express parcel, corporate freight, and e-commerce fulfillment.
             </p>
-            <div className="flex items-center gap-3 text-xs text-slate-400">
+            <div className="flex items-center gap-3 text-xs text-slate-300">
               <span className="flex items-center gap-1">
                 <ShieldCheck className="h-4 w-4 text-emerald-400" /> ISO Certified
               </span>
@@ -69,7 +69,7 @@ export function PublicFooter() {
             <h4 className="text-sm font-semibold uppercase tracking-wider text-white">
               Solutions
             </h4>
-            <ul className="space-y-2 text-sm text-slate-400">
+            <ul className="space-y-2 text-sm text-slate-300">
               <li>Intra-City Same-Day Express</li>
               <li>Nationwide 64-District Hub Transit</li>
               <li>Volumetric Cargo & Bulk Freight</li>
@@ -83,7 +83,7 @@ export function PublicFooter() {
             <h4 className="text-sm font-semibold uppercase tracking-wider text-white">
               Hub Support HQ
             </h4>
-            <div className="space-y-2 text-sm text-slate-400">
+            <div className="space-y-2 text-sm text-slate-300">
               <p className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 text-blue-400 shrink-0 mt-0.5" />
                 <span>Central Logistics Hub, Tejgaon I/A, Dhaka-1208, Bangladesh</span>
@@ -104,9 +104,9 @@ export function PublicFooter() {
           </div>
         </div>
 
-        <div className="mt-12 pt-6 border-t border-slate-800 text-center text-xs text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div className="mt-12 pt-6 border-t border-slate-800 text-center text-xs text-slate-400 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p>&copy; 2026 SwiftTrack Courier & Logistics Platform. All rights reserved.</p>
-          <div className="flex items-center gap-6 text-slate-400">
+          <div className="flex items-center gap-6 text-slate-300">
             <Link href="/pricing" className="hover:text-white transition-colors">Pricing</Link>
             <Link href="/contact" className="hover:text-white transition-colors">Privacy Policy</Link>
             <Link href="/contact" className="hover:text-white transition-colors">Terms of Service</Link>
