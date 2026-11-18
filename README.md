@@ -13,7 +13,7 @@
 | **Live Backend API** | [https://industry-standard-project-raskirayhans-projects.vercel.app/api/v1](https://industry-standard-project-raskirayhans-projects.vercel.app/api/v1) |
 | **Backend Repository** | [https://github.com/raskirayhan/courier-and-logistics-platform](https://github.com/raskirayhan/courier-and-logistics-platform) |
 | **Frontend Repository** | [https://github.com/raskirayhan/courier-frontend](https://github.com/raskirayhan/courier-frontend) |
-| **Live Frontend URL** | [https://courier-frontend-steel.vercel.app](https://courier-frontend-steel.vercel.app) *(or your deployed Vercel URL)* |
+| **Live Frontend URL** | [https://courier-frontend-nl7u.vercel.app](https://courier-frontend-nl7u.vercel.app) |
 
 ---
 
